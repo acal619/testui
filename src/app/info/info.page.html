@@ -1,0 +1,56 @@
+
+  
+  <ion-content [fullscreen]="true">
+
+	  <ion-button (click)="toggleShow()" type="checkbox" fill="clear" >c</ion-button>
+
+	  <div *ngIf="isShown" class="row container-fluid"  id="divshow" >
+
+	<div class="container">
+
+	<div class="card" >
+		<h2>Academic</h2>
+		<div class="content">
+		  <h1>01</h1>
+		  <tr *ngFor="let data of allData">
+		  <p>{{data.info}}</p>
+		</tr>
+		  <a href="#">View more</a>
+		</div>
+	  </div>
+	</div>
+</div>
+
+	<div class="ion-padding">
+		<ion-refresher slot="fixed" (ionRefresh)="doSomething($event);" (ionRefresh)="doSomething($event);" >
+		  <ion-refresher-content 
+			pullingText="Pull To Refresh"
+			refreshingSpinner="lines-sharp" 
+			refreshingText="Refreshing"
+			pullingIcon="chevron-down-circle-outline">
+	
+		  </ion-refresher-content>
+		</ion-refresher>
+	</div>
+
+	<ion-button (click)="toggleShoww()" type="checkbox" fill="clear" >c</ion-button>
+
+	  <div *ngIf="isShownn" class="row container-fluid"  id="divshow" >
+
+	<div class="container">
+
+		<div class="card">
+			<h2>Faculty</h2>
+			<div class="content">
+			  <h1>02</h1>
+			  <tr *ngFor="let data of alldata">
+				<p>{{data.info}}</p>
+			  </tr>
+			  <a href="#">View more</a>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+		  
+  </ion-content>

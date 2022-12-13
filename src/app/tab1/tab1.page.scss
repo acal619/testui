@@ -1,0 +1,52 @@
+ion-content{
+
+    --background: url('/assets/bullet2.jpg')no-repeat center center / cover;
+  
+  }
+
+  table {
+	width: 90%;
+    margin: 0 auto;
+    opacity: 0.9;
+    overflow:hidden;
+    border-radius: 15px;
+}
+
+.row{
+
+    margin-left: 0%;
+}
+
+ion-button{
+    color: rgba(255, 255, 255, 0.13);
+  }
+
+
+
+td {
+  
+  opacity: 0.9;
+  
+  
+}
+
+tbody:hover td {
+	color: transparent;
+	text-shadow: 0 0 3px #aaa;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    opacity: 1;
+}
+
+tbody:hover tr:hover td {
+	// color: #444;
+	text-shadow: 0 0px 0 #fff;
+    background-color: rgb(247, 10, 247);
+//    color: #fff;
+    // font-weight: bold;
+    font-size: 18px;
+
+    
+}
+

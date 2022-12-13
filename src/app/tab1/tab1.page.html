@@ -1,0 +1,94 @@
+<!-- 
+
+<ion-header [translucent]="true">
+  <ion-toolbar><ion-icon name="search-outline"></ion-icon>
+    <ion-title class="text-center">
+      Student
+    </ion-title>
+    <ion-button style="float: right;" fill="clear" (click)="logout()">
+      <img src="assets/logout.jpg" width="90" height="30" alt="submit" /></ion-button>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+
+  <ion-button (click)="toggleShow()" type="checkbox" fill="clear" >c</ion-button>
+
+<div *ngIf="isShown" class="row container-fluid"  id="divshow" >
+
+  <table class="table table-striped table-dark table-hover">
+    <thead>
+      <tr>
+        <th class="bg-warning" scope="col">Course</th>
+        <th class="bg-warning" scope="col">Score</th>
+        <th class="bg-warning" scope="col">Quality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of allData">
+  
+        <td >{{data.course}}</td>
+        <td>{{data.score}}</td>
+        <td>{{data.quality}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+  <div class="ion-padding">
+    <ion-refresher slot="fixed" (ionRefresh)="doSomething($event);" >
+      <ion-refresher-content 
+        pullingText="Pull To Refresh"
+        refreshingSpinner="lines-sharp" 
+        refreshingText="Refreshing"
+        pullingIcon="chevron-down-circle-outline">
+
+      </ion-refresher-content>
+
+      <table class="table table-striped table-dark table-hover">
+        <thead>
+          <tr>
+            <th class="bg-warning" scope="col">Course</th>
+            <th class="bg-warning" scope="col">Day</th>
+            <th class="bg-warning" scope="col">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of alldata">
+      
+            <td >{{data.course}}</td>
+            <td>{{data.score}}</td>
+            <td>{{data.quality}}</td>
+            
+          </tr>
+        </tbody>
+      </table>
+      
+    </ion-refresher>
+
+  </div>
+
+  <!-- <table class="table table-striped table-dark table-hover">
+    <thead>
+      <tr>
+        <th class="bg-warning" scope="col">Course</th>
+        <th class="bg-warning" scope="col">Score</th>
+        <th class="bg-warning" scope="col">Quality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of allData">
+  
+        <td >{{data.course}}</td>
+        <td>{{data.score}}</td>
+        <td>{{data.quality}}</td>
+        
+      </tr>
+    </tbody>
+  </table> -->
+
+
+
+</ion-content>

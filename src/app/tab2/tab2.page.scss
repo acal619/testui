@@ -1,0 +1,182 @@
+ion-content{
+
+    --background: #5e07ff;
+  
+
+  
+
+  #header {
+    height: 40%;
+    // background: rgb(30, 50, 77);
+    border-radius: 0 0 30px 30px;
+    opacity: 1;
+
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.menu{
+  color: white;
+}
+
+
+
+
+.ava{
+  // margin-top: 10%;
+  margin-left: 0%;
+  width: 80px;
+  height: 80px;
+}
+
+
+.avaa{
+  // margin-top: 10%;
+  margin-left: 70%;
+  width: 110px;
+  height: 60px;
+}
+
+.maps{
+  margin-top: -30%;
+  margin-left: 45%;
+  
+ 
+}
+
+.img{
+
+  width: 100px;
+  height: 100px;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  border-radius: 20px;
+  margin-top: -5%;
+  margin-right: 15%;
+}
+
+
+.lbll{
+  font-size: 13px;
+  color: white;
+  // font-weight: bold;
+  margin-top: -2%;
+}
+
+.lbl{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: rgb(7, 7, 7);
+  // font-weight: bold;
+  margin-top: 0%;
+  margin-left: 2%;
+}
+
+.hd{
+  // font-family: 'Courier New', Courier, monospace;
+  // font-size: 12px;
+  color: #5e07ff;
+  // font-weight: bold;
+  // margin-top: 0%;
+  // margin-left: 2%;
+}
+
+.tgg{
+  font-size: 10px;
+}
+
+
+.ac{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-left: 31%;
+}
+
+.at{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+
+.ag{
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 23%;
+  // margin-top: 1%;
+}
+
+.ac1{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-left: 35%;
+}
+
+.ac2{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+
+
+.cardis {
+  background-color: rgba(255, 255, 255, 0.438);
+  width: 360px;
+  height: 390px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+ion-item {
+    --background: #fafafa;
+    --color: #fff;
+
+}
+
+ion-item.hdd {
+  --background: #DAA520;
+  --color: #fff;
+  border-radius: 0px 0px 40px 40px;
+  height: 200%;
+}
+
+
+
+
+ion-searchbar {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: #0f0f0f;
+    border-radius: 70px;
+}
+
+ion-button {
+    float: right;
+    color: #f5f5f5;
+
+}
+
+ion-card {
+    background-color: rgba(244, 245, 247, 0.63);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: var(--color);
+}
+
+}

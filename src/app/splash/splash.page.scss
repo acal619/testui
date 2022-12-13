@@ -1,0 +1,35 @@
+ion-content{
+
+    --background: url('/assets/bullet2.jpg')no-repeat center center / cover;
+
+
+.container{
+
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+
+
+img{
+
+    animation: loader 5s infinite;
+    justify-content: center;
+    align-items: center;    
+    height: 130px;
+    margin-top: 80%;
+    margin-inline-start: 32%;
+}
+
+
+@keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      border-radius: 50%;
+      rotate: 1500deg;
+    }
+}
+
+}
+}

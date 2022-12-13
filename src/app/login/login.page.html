@@ -1,0 +1,30 @@
+
+<ion-content [fullscreen]="true">
+  
+<body>
+  <div class="inFormBackground">
+    <div class="inLoginForm">
+      <form onsubmit="return false">
+        <div class="title">
+          <h3>Login Here</h3>
+        </div>
+        <div class="inputGroup">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter Email" id="email">
+        </div>
+        <div class="inputGroup">
+          <label for="password">Password</label>
+          <input type="email" placeholder="Enter Password" id="password">
+        </div>
+        <button class="submitForm" (click)="open()">Log In</button>
+        <div class="social">
+          <div class="go"><i><ion-icon name="logo-google"></ion-icon></i></div>
+          <div class="fb"><i><ion-icon name="logo-facebook"></ion-icon></i></div>
+          <div class="tw"><i><ion-icon name="logo-twitter"></ion-icon></i></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</ion-content>
